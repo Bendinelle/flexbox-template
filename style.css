@@ -2,3 +2,59 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: #ccc;
+    justify-content: space-between;
+    padding: 0 4%;
+    align-items: center;
+}
+
+main{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8px;
+    row-gap: 8px;
+    text-align: center;
+    align-items: center;
+
+}
+
+main section figure figcaption{
+    background-color: black;
+    color: white;
+}
+
+main section{
+    border: 1px solid black;
+    width: 160px;
+}
+
+main section figure img {
+    width: 160px;
+}
+
+aside{
+    background-color: blueviolet;
+    width: 500px;
+}
+
+footer{
+    background-color: #ccc;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
